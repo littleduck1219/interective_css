@@ -22,12 +22,36 @@
     </div>
     <!-- //skip -->
 
-    <header id="header">
-        header
+    <header id="header" role="banner">
+        <div class="header__inner">
+            <div class="header__logo">
+                <h1>
+                    <a href="#">portfolio<em>vite</em></a>
+                </h1>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#intro">소개</a></li>
+                    <li><a href="#skill">스킬</a></li>
+                    <li><a href="#site">사이트</a></li>
+                    <li><a href="#port">포트폴리오</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+            </nav>
+            <div
+                aria-controls="primary-menu"
+                aria-expanded="false"
+                class="header__nav__mobile"
+                id="headerToggle"
+                role="button"
+            >
+                <span></span>
+            </div>
+        </div>
     </header>
 
     <!-- //header -->
-    <main id="main">
+    <main id="main" role="main">
         <section id="intro">
             intro
         </section>
@@ -56,7 +80,7 @@
     </main>
     <!-- //main -->
     
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
 
     </footer>
     <!-- //footer -->
